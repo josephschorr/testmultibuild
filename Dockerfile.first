@@ -1,2 +1,2 @@
 FROM busybox
-echo foo > bar
+RUN echo foo > bar
