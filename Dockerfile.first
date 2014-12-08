@@ -1,4 +1,5 @@
 FROM busybox
 RUN echo foo > bar
-RUN mkdir -r .winchman/out
+RUN mkdir .winchman/
+RUN mkdir .winchman/out
 RUN cp bar .winchman/out/
