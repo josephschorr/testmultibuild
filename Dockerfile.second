@@ -1,2 +1,3 @@
 FROM busybox
-RUN echo bar > baz
+ADD .winchman/in/block-A/bar added_file
+RUN cat added_file
